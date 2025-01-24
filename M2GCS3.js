@@ -74,16 +74,17 @@ function calculateAverage() {
     const results = {};
 
     const coefficients = {
-       "Mécanique des solides déformable": 2,
-        "Dynamique des sols ": 2,
-        "Rhéologie des sols": 2,
-        "Géostatistique ": 2,
-        "Barrages en terre": 1,
-        "Méthode des éléments finis": 3,
-        "Essais géotechniques et Reconnaissance des sites 2": 2,
-        "Aléas et risques géotechniques": 1,
-        "Code des marchés": 1,
-        "Respect des normes et des règles d’éthique et d’intégrité ": 1,
+      "Dynamique des ouvrages géotechniques ": 2,
+        "Calcul à la rupture et analyse limite": 2,
+        "Mécanique des roches": 2,
+        "Tunnels et ouvrages souterrains": 2,
+        "Géotechnique routière": 1,
+        "Amélioration des sols": 2,
+        "Modélisation des ouvrages géotechnique": 1,
+        "Systèmes d’Information Géographique": 2,
+        "Pathologie des ouvrages géotechniques ": 1,
+        "PGC des ouvrages géotechniques": 1,
+        "Recherche documentaire et conception de mémoire": 1,
     };
 
     for (const course in coefficients) {
