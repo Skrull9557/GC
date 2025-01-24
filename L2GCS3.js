@@ -45,6 +45,7 @@ function createCourseInputs() {
         "Métrologie": 1,
         "Mathématiques 3": 3,
         "Ondes et Vibrations": 2,
+        "anglais thecnique": 1,
     };
 
     // Clear previous inputs
@@ -84,6 +85,7 @@ function calculateAverage() {
         "Métrologie": 1,
         "Mathématiques 3": 3,
         "Ondes et Vibrations": 2,
+        "anglais thecnique": 1,   
     };
 
     for (const course in coefficients) {
