@@ -32,21 +32,19 @@ const texts = {
 
 // Function to create input fields for each course
 function createCourseInputs() {
-    const coursesDiv = document.getElementById('courses');
+    const coursesDiv = document.getElementById('courses')
     const coefficients = {
-        "resistence des materiaux 2": 2,
-        "beton arme 1": 2,
-        "charpante metallique": 2,
-        "mecanique des sols 2": 2,
-        "materiaux de construction 2": 2,
-        "TP topographie": 1,
-        "TP mecanique des sols 2": 1,
-        "TP materiaux de construction 2": 1,
-        "dessin btp": 2,
-        "topographie 2": 1,
-        "hydrolique geneal": 1,
-        "technique et regles de construction": 1,
-    };
+  "calcul des structures": 2,
+  "constructions metalliques": 2,
+  "fondations et ouvrages geotechniques": 2,
+  "calcul assiste par ordinateur": 2,
+  "projet de fin de cycle": 2,
+  "organisation des chantiers": 1,
+  "entreprenariat et management": 1,
+  "voiries et reseaux divers": 1,
+  "metre et estimation des prix": 1,
+  "beton arme 2": 3
+};
 
     // Clear previous inputs
     coursesDiv.innerHTML = '';
@@ -75,19 +73,17 @@ function calculateAverage() {
     const results = {};
 
     const coefficients = {
-        "resistence des materiaux 2": 2,
-        "beton arme 1": 2,
-        "charpante metallique": 2,
-        "mecanique des sols 2": 2,
-        "materiaux de construction 2": 2,
-        "TP topographie": 1,
-        "TP mecanique des sols 2": 1,
-        "TP materiaux de construction 2": 1,
-        "dessin btp": 2,
-        "topographie 2": 1,
-        "hydrolique geneal": 1,
-        "technique et regles de construction": 1,
-    };
+  "calcul des structures": 2,
+  "constructions metalliques": 2,
+  "fondations et ouvrages geotechniques": 2,
+  "calcul assiste par ordinateur": 2,
+  "projet de fin de cycle": 2,
+  "organisation des chantiers": 1,
+  "entreprenariat et management": 1,
+  "voiries et reseaux divers": 1,
+  "metre et estimation des prix": 1,
+  "beton arme 2": 3
+};
 
     for (const course in coefficients) {
         const examGrade = parseFloat(document.getElementById(`exam-${course}`).value) || null;
